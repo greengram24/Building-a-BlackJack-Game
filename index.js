@@ -1,3 +1,8 @@
+let player = {
+    name: "Vhi",
+    chips: 200,
+}
+
 let cards = []
 let sum = 0
 let hasBlackJack = false
@@ -6,16 +11,9 @@ let message = ""
 let messageEl = document.getElementById("message-el")
 let sumEl = document.getElementById("sum-el")
 let cardsEl = document.getElementById("cards-el")
-
-let player = {
-    name: "Vhi",
-    chips: 145
-}
-
-
-
 let playerEl = document.getElementById("player-el")
-playerEl.textContent = player.name + ": $" + player.chips
+
+playerEl.textContent= player.name + ":  $" + player.chips
 
 function getRandomCard() {
     let randomNumer = Math.floor( Math.random()*13 ) + 1
@@ -70,27 +68,18 @@ function newCard() {
     
 }
 
-let airbnb = {
-    title: "Entire condo in Baguio, Philippines",
-    guests: 11,
-    bedroom: 3,
-    beds: 11,
-    baths: 3,
-    available: true,
-    offers: ["Wifi","Kitchen","Workspace","Parking"]
-}
 
-console.log(airbnb.offers)
-
-// 3/16/2026
-// Aside- Math.random()
-// Flooring the number with Math.floor()
-// Using Math.random() and Math.floor() to createa dice
-// Completing our dice function
-// Make getRandomCard() work
-// complete getRandomCard()
-// our new card feature is broken
-// && and || operators
-// objects sneak peek
-//Aside- intro to objects
-// Create your first object
+// 3/17/2026
+// use an object to store player data
+// methods on object
+// AI for CODING STUDENTS
+// Final recap:
+    // arrays
+    // objects
+    // booleans
+    // if else statements
+    // comparison operators ===
+    // logical operators && ||
+    // for loops
+    // The math object
+    // return statements
